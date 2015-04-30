@@ -24,7 +24,7 @@
 
     <script type="text/javascript">
         $(function () {
-            // Declarar la referencia al hub comentario
+            // Declarar la referencia al hub
             var chat = $.connection.chatHub;
             // Crear una función para que el hub pueda llamar al método de broadcast
             chat.client.broadcastMessage = function (name, message) {
